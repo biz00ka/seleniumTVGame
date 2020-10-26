@@ -123,6 +123,7 @@ public class WebActionHelperMethods {
 
 	public void inputValuesUsingJS(WebElement ele, String value) throws Exception
 	{
+		waitForElementPresent(driver,30,ele);
 		JavascriptExecutor executor = (JavascriptExecutor)driver;
 		executor.executeScript("arguments[0].setAttribute('value', arguments[1])", ele, value);
 		Thread.sleep(800);
@@ -130,6 +131,7 @@ public class WebActionHelperMethods {
 
 	public void setAttributeByJS(WebElement ele, String value) throws Exception
 	{
+		waitForElementPresent(driver,30,ele);
 		JavascriptExecutor executor = (JavascriptExecutor)driver;
 		executor.executeScript("arguments[0].setAttribute('aria-expanded', arguments[1])", ele, value);
 		Thread.sleep(800);

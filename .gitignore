@@ -9,3 +9,4 @@ test-output/*
 .idea/
 *.iml
 *.iws
+AutomationReports/*
