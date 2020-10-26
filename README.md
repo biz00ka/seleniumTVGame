@@ -1,4 +1,4 @@
-# Selenium-PageObject-Java-Automation-Framework
+# Selenium POM Framework
 
 Selenium page object automation framework using java &amp; Maven &amp; TestNG & Extent Report
 
@@ -70,9 +70,6 @@ BaseTest :In this class we have initialize drivers and all the pages.
 
 ##### Report
 
-![](images/Report.png)
-
-![](images/Report1.png)
 
 
 
